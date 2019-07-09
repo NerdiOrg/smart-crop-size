@@ -1,0 +1,5 @@
+# SmartCropSize
+This bulk smart crop-size tool was created by William Passmore and submitted to GitHub on 3-26-2019. The tool allows you to put the 'run.py' file in any image-only directory and then crop the images inside that folder. You can choose the desired width/height end result, and the script will crop it appropriately.
+
+## Smart Cropping
+The tool will decide if it's better to crop the image on the top/bottom or on the left/right, to avoid losing too much content. It does this to get the image to the desired aspect ratio so the smart crop does not distort the image. Once the aspect ratio is achieved, the image is resized to the desired dimensions. For this reason it is not a standard cropping tool that chops off edges. The logic in place makes this ideal for showing images that can be clicked/hovered on to enlarge, for the web, or for specific dimensions that must be used without losing too much image quality. By default, the tool will preserve the center of the image as a priority.
